@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    justify-content: space-around;
+    padding: 20px 20px;
+    position: fixed;
+}
+header ol{
+    /* text-decoration: none;
+    color: white; */
+    justify-content: space-around;
+}
+header ol li{
+    text-decoration: none;
+    display: inline;
+    color: white;
+    padding: 0px 20px;
+    
+}
+.banner img{
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+}
