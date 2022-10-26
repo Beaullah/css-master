@@ -34,8 +34,12 @@ header nav li a{
    
 }
 .search{
-    display: flex;
+    padding-bottom: 30px;
+
    
+}
+.search img{
+    
 }
 .first-div{
     display: flex;
@@ -81,10 +85,33 @@ header nav li a{
 
 }
 .food-cards{
-    display: inline-flex;
+   display: flex;
+    margin-top: 50px;
     justify-content: space-evenly;
+   
 
 }
+.food-cards img{
+  height: 100px;
+  width: 200px;
+  
+  
+}
+.card{
+    border: 2px solid rgb(247, 241, 241);
+}
+.card p{
+    font-weight: bold;
+    opacity: 0.5;
+}
+footer{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+
 
 
 
