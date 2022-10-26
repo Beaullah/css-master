@@ -1,0 +1,90 @@
+*{
+    /* box-sizing: border-box; */
+    /* margin: 0; */
+    /* padding: 0; */
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+   position: fixed;
+    background-color: white;
+    border-bottom: 2px solid rgb(186, 170, 170);
+    width: 100%;
+    top: 0px;
+  left: 0px;
+}
+header::after{
+    background-color: whiteS;
+
+}
+
+
+
+header nav li{
+    display: inline;
+    padding: 20px 20px;
+    margin-top: 30px;
+    
+}
+header nav li a{
+    text-decoration: none;
+    color: black;
+
+   
+}
+.search{
+    display: flex;
+   
+}
+.first-div{
+    display: flex;
+   padding: 150px 0 0 0;
+   /* justify-content: space-between; */
+   text-align: center;
+   justify-content: center;
+   
+
+
+}
+.images1 img{
+    height: 200px;
+    padding-right: 50px;
+   
+}
+.right-image img{
+    height: 200px;
+    padding-left: 50px;
+    
+   
+}
+.midde-img img{
+    transition: 1s;
+}
+.midde-img:hover{
+   transform: scale(1.1) ;
+}
+.second-div{
+    display: flex;
+    padding: 30px 30px;
+    justify-content: space-around;
+    background-color: rgb(230, 230, 241);
+}
+
+  
+
+.fruit-salad img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 150px;
+
+}
+.food-cards{
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+
+
+
