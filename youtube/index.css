@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(22, 21, 21);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    /* padding: 0;
+    margin: 0; */
+    
+}
+.logo h2{
+    margin: 10px;
+    /* padding: 0; */
+}
+.logo img{
+    height: 50px;
+   
+}
+.navbar li{
+    display: inline;
+    padding: 30px;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.profile{
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.profile p{
+    height: 20px;
+    width: 20px;
+    padding: 8px 8px;
+    border: 2px black solid;
+    border-radius: 20px;
+    background-color: pink;
+}
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.first-box{
+    display: flex;
+}
+.box1{
+    display: flex;
+    padding: 2px ;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.box1 p{
+    padding-left: 20px;
+    line-height: 20px;
+}
+.firts img:hover{
+    background-color: aqua;
+  
+    
+}
+.all-albums{
+    display: flex;
+    justify-content: space-between;
+    
+}
+   
