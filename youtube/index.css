@@ -79,4 +79,19 @@ a {
     justify-content: space-between;
     
 }
-   
+.circle-img{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    padding: 100px 20px;
+    text-align: center;
+    
+}
+.cirle img{
+    border: 1px solid black;
+    border-radius: 100%;
+    display: inline;
+}
+#k{
+    transform: matrix(100,100);
+}
