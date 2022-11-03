@@ -91,7 +91,38 @@ a {
     border: 1px solid black;
     border-radius: 100%;
     display: inline;
+    position: relative;
+    
+  
 }
 #k{
-    transform: matrix(100,100);
+    position: relative;
+    bottom: 30px;
+   
+}
+#u{
+    position: relative;
+    left: 42px;
+}
+#o{
+    position: relative;
+    left: 38px;
+}
+#t{
+    position: relative;
+    right: 20px;
+}
+#l{
+    position: relative;
+    right: 30px;
+}
+.artist{
+    margin-left: 7rem;
+}
+.artist button{
+    height: 40px;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: hsl(191, 70%, 67%);
+    box-shadow: inset 0 0 25px rgba(0,0,0,.25)
 }
